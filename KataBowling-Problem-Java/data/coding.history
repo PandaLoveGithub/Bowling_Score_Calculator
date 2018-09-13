@@ -1,0 +1,404 @@
+<session>
+	<change action='addition' type='Class' class='Player' resource='src/Bowling/Player.java' stamp='1536447603337'/>
+	<change action='addition' type='Class' class='Frame' resource='src/Bowling/Frame.java' stamp='1536447625053'/>
+	<change action='addition' type='Method' class='Player' method='roll' args='' visibility='public' resource='src/Bowling/Player.java' stamp='1536447643829'/>
+	<change action='addition' type='Method' class='Player' method='roll' args='int' visibility='public' resource='src/Bowling/Player.java' stamp='1536447647854'/>
+	<change action='removal' type='Method' class='Player' method='roll' args='' visibility='N/A' resource='src/Bowling/Player.java' stamp='1536447647854'/>
+	<problem type='Missing Class' class='Player' resource='test/BowlingTest.java' stamp='1536447763018'/>
+	<change action='addition' type='Method' class='BowlingTest' method='rollScoreTest' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536447806661'/>
+	<problem type='Unresolved Token' token='assertEqu' resource='test/BowlingTest.java' stamp='1536447838846'/>
+	<problem type='Unresolved Token' token='assertEquals' resource='test/BowlingTest.java' stamp='1536447840357'/>
+	<problem type='Method Not Applicable' class='Assert' method='assertEquals' args='int' resource='test/BowlingTest.java' stamp='1536447901576'/>
+	<problem type='Method Not Applicable' class='Assert' method='assertFalse' args='int, int' resource='test/BowlingTest.java' stamp='1536447921168'/>
+	<problem type='Method Not Applicable' class='Player' method='roll' args='' resource='test/BowlingTest.java' stamp='1536447927702'/>
+	<change action='addition' type='Method' class='Frame' method='getFirstRoll' args='' visibility='public' resource='src/Bowling/Frame.java' stamp='1536448189856'/>
+	<change action='addition' type='Method' class='Frame' method='setFirstRoll' args='int' visibility='public' resource='src/Bowling/Frame.java' stamp='1536448189856'/>
+	<change action='addition' type='Method' class='Frame' method='getSecondRoll' args='' visibility='public' resource='src/Bowling/Frame.java' stamp='1536448189856'/>
+	<change action='addition' type='Method' class='Frame' method='setSecondRoll' args='int' visibility='public' resource='src/Bowling/Frame.java' stamp='1536448189856'/>
+	<change action='addition' type='Method' class='Frame' method='getThirdRoll' args='' visibility='public' resource='src/Bowling/Frame.java' stamp='1536448189856'/>
+	<change action='addition' type='Method' class='Frame' method='setThirdRoll' args='int' visibility='public' resource='src/Bowling/Frame.java' stamp='1536448189856'/>
+	<change action='addition' type='Method' class='Frame' method='isRecording' args='' visibility='public' resource='src/Bowling/Frame.java' stamp='1536448189856'/>
+	<change action='addition' type='Method' class='Frame' method='setRecording' args='boolean' visibility='public' resource='src/Bowling/Frame.java' stamp='1536448189856'/>
+	<change action='addition' type='Method' class='Frame' method='isStrike' args='' visibility='public' resource='src/Bowling/Frame.java' stamp='1536448189856'/>
+	<change action='addition' type='Method' class='Frame' method='setStrike' args='boolean' visibility='public' resource='src/Bowling/Frame.java' stamp='1536448189856'/>
+	<change action='addition' type='Method' class='Frame' method='isSpare' args='' visibility='public' resource='src/Bowling/Frame.java' stamp='1536448189856'/>
+	<change action='addition' type='Method' class='Frame' method='setSpare' args='boolean' visibility='public' resource='src/Bowling/Frame.java' stamp='1536448189856'/>
+	<change action='removal' type='Method' class='Frame' method='Frame' args='int, int, int, int, boolean, boolean, boolean' visibility='N/A' resource='src/Bowling/Frame.java' stamp='1536448314604'/>
+	<problem type='Unresolved Token' token='recor' resource='src/Bowling/Frame.java' stamp='1536448423897'/>
+	<problem type='Unresolved Token' token='record' resource='src/Bowling/Frame.java' stamp='1536448424910'/>
+	<problem type='Missing Class' class='Frame' resource='test/BowlingTest.java' stamp='1536448591765'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testFrameSetter' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536448619903'/>
+	<problem type='Unresolved Token' token='singleFrame' resource='test/BowlingTest.java' stamp='1536448638457'/>
+	<problem type='Missing Method' class='BowlingTest' method='singleFrame' args='' resource='test/BowlingTest.java' stamp='1536448639966'/>
+	<problem type='Missing Method' class='BowlingTest' method='singleFrame' args='int' resource='test/BowlingTest.java' stamp='1536448640975'/>
+	<problem type='Method Not Applicable' class='Assert' method='assertEquals' args='' resource='test/BowlingTest.java' stamp='1536448688677'/>
+	<problem type='Missing Method' class='Frame' method='getFiRoll' args='' resource='test/BowlingTest.java' stamp='1536448770441'/>
+	<problem type='Missing Method' class='Frame' method='getRoll' args='' resource='test/BowlingTest.java' stamp='1536448772481'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testRecordCounter' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536448843175'/>
+	<problem type='Method Not Applicable' class='Assert' method='assertEquals' args='Frame' resource='test/BowlingTest.java' stamp='1536448862226'/>
+	<change action='addition' type='Method' class='Frame' method='getRecordCounter' args='' visibility='public' resource='src/Bowling/Frame.java' stamp='1536448899249'/>
+	<change action='addition' type='Method' class='Player' method='playGame' args='' visibility='public' resource='src/Bowling/Player.java' stamp='1536449123169'/>
+	<change action='addition' type='Method' class='Player' method='playGame' args='int' visibility='public' resource='src/Bowling/Player.java' stamp='1536449129188'/>
+	<change action='removal' type='Method' class='Player' method='playGame' args='' visibility='N/A' resource='src/Bowling/Player.java' stamp='1536449129188'/>
+	<change action='addition' type='Method' class='Player' method='playGame' args='' visibility='public' resource='src/Bowling/Player.java' stamp='1536449200790'/>
+	<change action='removal' type='Method' class='Player' method='playGame' args='int' visibility='N/A' resource='src/Bowling/Player.java' stamp='1536449200790'/>
+	<problem type='Method Not Applicable' class='Player' method='roll' args='' resource='src/Bowling/Player.java' stamp='1536449214842'/>
+	<change action='addition' type='Method' class='Player' method='playGame' args='int' visibility='public' resource='src/Bowling/Player.java' stamp='1536449222362'/>
+	<change action='removal' type='Method' class='Player' method='playGame' args='' visibility='N/A' resource='src/Bowling/Player.java' stamp='1536449222362'/>
+	<change action='addition' type='Method' class='Player' method='startRecordFirstFrame' args='' visibility='public' resource='src/Bowling/Player.java' stamp='1536449526902'/>
+	<problem type='Missing Class' class='Ignore' resource='test/BowlingTest.java' stamp='1536449778582'/>
+	<problem type='Missing Class' class='ignore' resource='test/BowlingTest.java' stamp='1536449784099'/>
+	<change action='removal' type='Method' class='Player' method='roll' args='int' visibility='N/A' resource='src/Bowling/Player.java' stamp='1536449813270'/>
+	<problem type='Missing Method' class='Player' method='roll' args='int' resource='src/Bowling/Player.java' stamp='1536449813270'/>
+	<change action='addition' type='Method' class='Player' method='roll' args='int' visibility='public' resource='src/Bowling/Player.java' stamp='1536449819285'/>
+	<change action='removal' type='Method' class='Player' method='playGame' args='int' visibility='N/A' resource='src/Bowling/Player.java' stamp='1536449819285'/>
+	<problem type='Unresolved Token' token='frame' resource='src/Bowling/Player.java' stamp='1536449839326'/>
+	<problem type='Method Not Applicable' class='Frame' method='setFirstRoll' args='' resource='src/Bowling/Player.java' stamp='1536449903974'/>
+	<problem type='Missing Class' class='frames' resource='src/Bowling/Player.java' stamp='1536449972626'/>
+	<problem type='Missing Class' class='Class<frames[]>' resource='src/Bowling/Player.java' stamp='1536449972626'/>
+	<problem type='Method Not Applicable' class='Assert' method='assertEquals' args='int, void' resource='test/BowlingTest.java' stamp='1536450846557'/>
+	<change action='removal' type='Method' class='BowlingTest' method='rollScoreTest' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536450922948'/>
+	<change action='addition' type='Method' class='Frame' method='Frame' args='' visibility='private' resource='src/Bowling/Frame.java' stamp='1536448314604'/>
+	<change action='addition' type='Method' class='Frame' method='getSumOfFrame' args='' visibility='public' resource='src/Bowling/Frame.java' stamp='1536451007954'/>
+	<change action='addition' type='Method' class='Player' method='calculateAllScores' args='' visibility='public' resource='src/Bowling/Player.java' stamp='1536453405733'/>
+	<problem type='Missing Class' class='frame' resource='src/Bowling/Player.java' stamp='1536453425543'/>
+	<change action='addition' type='Method' class='Player' method='getSumOfPlayer' args='' visibility='public' resource='src/Bowling/Player.java' stamp='1536453551108'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testPlayerRolls' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536453639427'/>
+	<problem type='Unresolved Token' token='assertE' resource='test/BowlingTest.java' stamp='1536453687575'/>
+	<change action='removal' type='Method' class='Player' method='Player' args='' visibility='N/A' resource='src/Bowling/Player.java' stamp='1536454006511'/>
+	<change action='removal' type='Method' class='Player' method='Player' args='' visibility='N/A' resource='src/Bowling/Player.java' stamp='1536454134329'/>
+	<problem type='Missing Method' class='BowlingTest' method='roll' args='int' resource='test/BowlingTest.java' stamp='1536454219459'/>
+	<problem type='Unresolved Token' token='perfect' resource='test/BowlingTest.java' stamp='1536454242526'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testPerfectPlayerRolls' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536454269094'/>
+	<change action='removal' type='Method' class='BowlingTest' method='testPlayerRolls' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536454269094'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testPerfectPlayer' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536454272104'/>
+	<change action='removal' type='Method' class='BowlingTest' method='testPerfectPlayerRolls' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536454272104'/>
+	<problem type='Missing Method' class='Player' method='assertEquals' args='int' resource='test/BowlingTest.java' stamp='1536454294167'/>
+	<problem type='Unresolved Token' token='erfectPlayer' resource='test/BowlingTest.java' stamp='1536454304701'/>
+	<problem type='Missing Class' class='perfectPlayer' resource='test/BowlingTest.java' stamp='1536454312735'/>
+	<change action='removal' type='Method' class='Player' method='startRecordFirstFrame' args='' visibility='public' resource='src/Bowling/Player.java' stamp='1536454476046'/>
+	<change action='addition' type='Class' class='PlayGame' resource='src/Bowling/PlayGame.java' stamp='1536454855783'/>
+	<problem type='Unresolved Token' token='sysout' resource='src/Bowling/PlayGame.java' stamp='1536454903770'/>
+	<problem type='Missing Class' class='abraham' resource='src/Bowling/PlayGame.java' stamp='1536454919305'/>
+	<problem type='Unresolved Token' token='out' resource='src/Bowling/PlayGame.java' stamp='1536455342697'/>
+	<problem type='Missing Class' class='frames' resource='src/Bowling/PlayGame.java' stamp='1536455360995'/>
+	<change action='removal' type='Method' class='Player' method='Player' args='' visibility='N/A' resource='src/Bowling/Player.java' stamp='1536455820864'/>
+	<change action='addition' type='Method' class='Player' method='startRecordFirstFrame' args='' visibility='public' resource='src/Bowling/Player.java' stamp='1536455825434'/>
+	<problem type='Unresolved Token' token='perfectPlayer' resource='test/BowlingTest.java' stamp='1536456047727'/>
+	<problem type='Unresolved Token' token='abraha' resource='test/BowlingTest.java' stamp='1536456055380'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testPerfectPlayer' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536456170371'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testWorstPlayer' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536456180541'/>
+	<change action='removal' type='Method' class='BowlingTest' method='testPerfectPlayer' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536456180541'/>
+	<problem type='Unresolved Token' token='fram' resource='src/Bowling/Player.java' stamp='1536457998400'/>
+	<problem type='Unresolved Token' token='framTurnCounter' resource='src/Bowling/Player.java' stamp='1536458001430'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testPerfectPlayerFiveTimes' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536458214317'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testPerfectPlayerFiveTimes' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536460791285'/>
+	<change action='addition' type='Method' class='BowlingTest' method='test' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536460796301'/>
+	<change action='removal' type='Method' class='BowlingTest' method='testPerfectPlayerFiveTimes' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536460796301'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testNormalPlayer' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536460800814'/>
+	<change action='removal' type='Method' class='BowlingTest' method='test' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536460800814'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testNormalPlayerOne' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536460801826'/>
+	<change action='removal' type='Method' class='BowlingTest' method='testNormalPlayer' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536460801826'/>
+	<problem type='Unresolved Token' token='se' resource='src/Bowling/Player.java' stamp='1536462482654'/>
+	<problem type='Unresolved Token' token='sysout' resource='src/Bowling/Player.java' stamp='1536462494332'/>
+	<problem type='Missing Class' class='abraham' resource='test/BowlingTest.java' stamp='1536462529875'/>
+	<change action='addition' type='Method' class='Player' method='printAll' args='' visibility='public' resource='src/Bowling/Player.java' stamp='1536462564395'/>
+	<problem type='Unresolved Token' token='dlxd' resource='src/Bowling/Player.java' stamp='1536464170795'/>
+	<problem type='Unresolved Token' token='s' resource='src/Bowling/Player.java' stamp='1536466800195'/>
+	<problem type='Unresolved Token' token='moveTo' resource='src/Bowling/Player.java' stamp='1536466810399'/>
+	<change action='addition' type='Method' class='Player' method='Player' args='' visibility='private' resource='src/Bowling/Player.java' stamp='1536455915983'/>
+	<change action='addition' type='Method' class='Player' method='Player' args='' visibility='private' resource='src/Bowling/Player.java' stamp='1536455120445'/>
+	<change action='addition' type='Method' class='Player' method='Player' args='' visibility='private' resource='src/Bowling/Player.java' stamp='1536453981947'/>
+	<change action='addition' type='Method' class='Player' method='Player' args='' visibility='private' resource='src/Bowling/Player.java' stamp='1536454013035'/>
+	<problem type='Unresolved Token' token='b' resource='src/Bowling/Player.java' stamp='1536467688469'/>
+	<problem type='Unresolved Token' token='breakl' resource='src/Bowling/Player.java' stamp='1536468013265'/>
+	<problem type='Unresolved Token' token='oridin' resource='src/Bowling/Player.java' stamp='1536469320074'/>
+	<problem type='Unresolved Token' token='oridinary' resource='src/Bowling/Player.java' stamp='1536469322109'/>
+	<problem type='Unresolved Token' token='oridinaryFrame' resource='src/Bowling/Player.java' stamp='1536469323641'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testNormalPlayer' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536469890616'/>
+	<change action='removal' type='Method' class='BowlingTest' method='testNormalPlayerOne' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536469890616'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testNormalPlayer45563' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536469892652'/>
+	<change action='removal' type='Method' class='BowlingTest' method='testNormalPlayer' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536469892652'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testNormalPlayer10' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536469895695'/>
+	<change action='removal' type='Method' class='BowlingTest' method='testNormalPlayer45563' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536469895695'/>
+	<change action='removal' type='Method' class='BowlingTest' method='testNormalPlayer10' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536469899292'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testNormalPlayer10_5_5_63' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536469912485'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testNormalPlayer10_5_5_6_3' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536469913496'/>
+	<change action='removal' type='Method' class='BowlingTest' method='testNormalPlayer10_5_5_63' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536469913496'/>
+	<problem type='Unresolved Token' token='moveToNext' resource='src/Bowling/Player.java' stamp='1536470462219'/>
+	<problem type='Unresolved Token' token='ignore' resource='src/Bowling/Player.java' stamp='1536471083324'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testNormalPlayer_10_5_5_6_3' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536471215978'/>
+	<change action='removal' type='Method' class='BowlingTest' method='testNormalPlayer10_5_5_6_3' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536471215978'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testNormalPlayer_10_5_5_6_3' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536471367214'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testNormalPlayer_10_5_5_6_3_1' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536471371225'/>
+	<change action='removal' type='Method' class='BowlingTest' method='testNormalPlayer_10_5_5_6_3' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536471371225'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testNormalPlayer_10_5_5_6_3_1' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536471827426'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testNormalPlayer_5_5_5_6_3_1' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536471835506'/>
+	<change action='removal' type='Method' class='BowlingTest' method='testNormalPlayer_10_5_5_6_3_1' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536471835506'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testNormalPlayer_5__5_6_3_1' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536471837015'/>
+	<change action='removal' type='Method' class='BowlingTest' method='testNormalPlayer_5_5_5_6_3_1' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536471837015'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testNormalPlayer_5_3_5_6_3_1' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536471838022'/>
+	<change action='removal' type='Method' class='BowlingTest' method='testNormalPlayer_5__5_6_3_1' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536471838022'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testNormalPlayer_5_3_5__3_1' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536471840030'/>
+	<change action='removal' type='Method' class='BowlingTest' method='testNormalPlayer_5_3_5_6_3_1' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536471840030'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testNormalPlayer_5_3_5_5_3_1' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536471841038'/>
+	<change action='removal' type='Method' class='BowlingTest' method='testNormalPlayer_5_3_5__3_1' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536471841038'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testNormalPlayer_5_3_5_5_310_1' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536471842046'/>
+	<change action='removal' type='Method' class='BowlingTest' method='testNormalPlayer_5_3_5_5_3_1' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536471842046'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testNormalPlayer_5_3_5_5_10_1' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536471844115'/>
+	<change action='removal' type='Method' class='BowlingTest' method='testNormalPlayer_5_3_5_5_310_1' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536471844115'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testNormalPlayer_5_3_5_5_10_110' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536471846623'/>
+	<change action='removal' type='Method' class='BowlingTest' method='testNormalPlayer_5_3_5_5_10_1' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536471846623'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testNormalPlayer_5_3_5_5_10_10_' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536471849633'/>
+	<change action='removal' type='Method' class='BowlingTest' method='testNormalPlayer_5_3_5_5_10_110' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536471849633'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testNormalPlayer_5_3_5_5_10_10_6' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536471851140'/>
+	<change action='removal' type='Method' class='BowlingTest' method='testNormalPlayer_5_3_5_5_10_10_' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536471851140'/>
+	<change action='removal' type='Method' class='BowlingTest' method='testNormalPlayer_5_3_5_5_10_10_6' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536600509154'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testNormalPlayer_10_5_5_6_3_1' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536601313041'/>
+	<change action='addition' type='Method' class='BowlingTest' method='test' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536601322583'/>
+	<change action='removal' type='Method' class='BowlingTest' method='testNormalPlayer_10_5_5_6_3_1' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536601322583'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testFrom' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536601324117'/>
+	<change action='removal' type='Method' class='BowlingTest' method='test' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536601324117'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testFr' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536601325140'/>
+	<change action='removal' type='Method' class='BowlingTest' method='testFrom' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536601325140'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testFrame' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536601326168'/>
+	<change action='removal' type='Method' class='BowlingTest' method='testFr' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536601326168'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testFrameNine' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536601328197'/>
+	<change action='removal' type='Method' class='BowlingTest' method='testFrame' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536601328197'/>
+	<problem type='Method Not Applicable' class='Player' method='roll' args='' resource='test/BowlingTest.java' stamp='1536601332279'/>
+	<problem type='Missing Class' class='abraham' resource='test/BowlingTest.java' stamp='1536601383391'/>
+	<problem type='Missing Method' class='BowlingTest' method='calculateAllScores' args='' resource='test/BowlingTest.java' stamp='1536601383391'/>
+	<problem type='Missing Class' class='ignore' resource='test/BowlingTest.java' stamp='1536601593029'/>
+	<problem type='Missing Class' class='gnore' resource='test/BowlingTest.java' stamp='1536601595560'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testNormalPlayer_10_5_5_6_3_1' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536601606644'/>
+	<change action='removal' type='Method' class='BowlingTest' method='testNormalPlayer_10_5_5_6_3_1' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536601626714'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testTen' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536601629729'/>
+	<change action='addition' type='Method' class='BowlingTest' method='Ten' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536601634248'/>
+	<change action='removal' type='Method' class='BowlingTest' method='testTen' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536601634248'/>
+	<change action='addition' type='Method' class='BowlingTest' method='ten' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536601635265'/>
+	<change action='removal' type='Method' class='BowlingTest' method='Ten' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536601635265'/>
+	<change action='addition' type='Method' class='BowlingTest' method='tenFor' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536601637781'/>
+	<change action='removal' type='Method' class='BowlingTest' method='ten' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536601637781'/>
+	<change action='addition' type='Method' class='BowlingTest' method='perfect' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536601641805'/>
+	<change action='removal' type='Method' class='BowlingTest' method='tenFor' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536601641805'/>
+	<change action='addition' type='Method' class='BowlingTest' method='perfectGame' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536601643328'/>
+	<change action='removal' type='Method' class='BowlingTest' method='perfect' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536601643328'/>
+	<change action='removal' type='Method' class='BowlingTest' method='dummyTest' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536601704504'/>
+	<change action='removal' type='Method' class='BowlingTest' method='testFrameSetter' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536601793685'/>
+	<change action='removal' type='Method' class='BowlingTest' method='testRecordCounter' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536601793685'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testFrameSetter' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536601800267'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testRecordCounter' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536601800267'/>
+	<change action='removal' type='Method' class='BowlingTest' method='testWorstPlayer' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536601818807'/>
+	<change action='addition' type='Method' class='BowlingTest' method='testWorstPlayer' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536601822328'/>
+	<change action='removal' type='Method' class='BowlingTest' method='perfectGame' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536601852394'/>
+	<change action='addition' type='Method' class='BowlingTest' method='perfectGame' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536601860438'/>
+	<change action='addition' type='Class' class='Player' resource='src/Bowling/Player.java' stamp='1536816974556'/>
+	<change action='addition' type='Method' class='Player' method='roll' args='' visibility='public' resource='src/Bowling/Player.java' stamp='1536817072055'/>
+	<change action='addition' type='Method' class='Player' method='roll' args='int' visibility='public' resource='src/Bowling/Player.java' stamp='1536817074576'/>
+	<change action='removal' type='Method' class='Player' method='roll' args='' visibility='N/A' resource='src/Bowling/Player.java' stamp='1536817074576'/>
+	<change action='removal' type='Method' class='BowlingTest' method='dummyTest' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536817258682'/>
+	<change action='addition' type='Method' class='Player' method='getTotalScores' args='' visibility='public' resource='src/Bowling/Player.java' stamp='1536817284269'/>
+	<problem type='Unresolved Token' token='total' resource='src/Bowling/Player.java' stamp='1536817298840'/>
+	<problem type='Unresolved Token' token='totalScore' resource='src/Bowling/Player.java' stamp='1536817301865'/>
+	<problem type='Missing Class' class='Player' resource='test/BowlingTest.java' stamp='1536817383318'/>
+	<change action='addition' type='Method' class='BowlingTest' method='worstPlayer' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536817433433'/>
+	<problem type='Unresolved Token' token='abraham' resource='test/BowlingTest.java' stamp='1536817436504'/>
+	<problem type='Unresolved Token' token='assertEquals' resource='test/BowlingTest.java' stamp='1536817482109'/>
+	<problem type='Method Not Applicable' class='Assert' method='assertEquals' args='' resource='test/BowlingTest.java' stamp='1536817483619'/>
+	<problem type='Method Not Applicable' class='Assert' method='assertEquals' args='int' resource='test/BowlingTest.java' stamp='1536817488640'/>
+	<change action='addition' type='Method' class='BowlingTest' method='worstPlayer' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536817516700'/>
+	<change action='addition' type='Method' class='BowlingTest' method='firstThrow' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536817526719'/>
+	<change action='removal' type='Method' class='BowlingTest' method='worstPlayer' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536817526719'/>
+	<change action='addition' type='Method' class='BowlingTest' method='firstThrowAs' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536817529230'/>
+	<change action='removal' type='Method' class='BowlingTest' method='firstThrow' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536817529230'/>
+	<change action='addition' type='Method' class='BowlingTest' method='firstThrowAsSix' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536817535250'/>
+	<change action='removal' type='Method' class='BowlingTest' method='firstThrowAs' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536817535250'/>
+	<problem type='Unresolved Token' token='currentSoare' resource='src/Bowling/Player.java' stamp='1536821359056'/>
+	<problem type='Unresolved Token' token='currentSparQuantity' resource='src/Bowling/Player.java' stamp='1536821362066'/>
+	<problem type='Unresolved Token' token='current' resource='src/Bowling/Player.java' stamp='1536821396667'/>
+	<problem type='Unresolved Token' token='currentStrike' resource='src/Bowling/Player.java' stamp='1536821398677'/>
+	<problem type='Unresolved Token' token='c' resource='src/Bowling/Player.java' stamp='1536822425911'/>
+	<change action='addition' type='Method' class='BowlingTest' method='firstThrowAsSix' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536823154524'/>
+	<change action='removal' type='Method' class='BowlingTest' method='firstThrowAsSix' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536823161039'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case10_2_3_5' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536823171579'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_10_2_3_5' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536823173087'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case10_2_3_5' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536823173087'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_10_2_3_6' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536823242184'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_10_2_3_5' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536823242184'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_10_2_3_6' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536823264726'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_10_10_3_6' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536823269234'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_10_2_3_6' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536823269234'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_10_10_10_6' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536823270742'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_10_10_3_6' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536823270742'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_10_10_10_10' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536823272247'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_10_10_10_6' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536823272247'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_10_10_10_10' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536823818291'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_10_10_2_10' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536823877864'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_10_10_10_10' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536823877864'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_10_10_2_8_' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536823880372'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_10_10_2_10' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536823880372'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_10_10_2_8_6' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536823882382'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_10_10_2_8_' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536823882382'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_10_10_2_8_6_3' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536823884392'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_10_10_2_8_6' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536823884392'/>
+	<change action='removal' type='Method' class='BowlingTest' method='assertEquals' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536823892417'/>
+	<problem type='Method Not Applicable' class='Player' method='roll' args='' resource='test/BowlingTest.java' stamp='1536823919965'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_10_10_2_8_6_3' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536824471468'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case__10_2_8_6_3' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536824477981'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_10_10_2_8_6_3' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536824477981'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_10_2_8_6_3' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536824478993'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case__10_2_8_6_3' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536824478993'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_2_8_6_3' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536824482003'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_7_10_2_8_6_3' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536824482003'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_8_8_6_3' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536824484019'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_7_3_2_8_6_3' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536824484019'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_8_8__3' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536824486530'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_7_3_8_8_6_3' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536824486530'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_8_1__3' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536824489537'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_7_3_8_8__3' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536824489537'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_8_1_1_3' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536824491057'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_7_3_8_1__3' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536824491057'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_8_1_1_9_' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536824493566'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_7_3_8_1_1_3' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536824493566'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_8_1_1_9_6_' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536824496577'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_7_3_8_1_1_9_' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536824496577'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_8_1_1_9_6_2' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536824498085'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_7_3_8_1_1_9_6_' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536824498085'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_8_1_1_9_6_2_' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536824499594'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_7_3_8_1_1_9_6_2' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536824499594'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_8_1_1_9_6_2_10' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536824500601'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_7_3_8_1_1_9_6_2_' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536824500601'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_8_1_1_9_6_2_10_' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536824503110'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_7_3_8_1_1_9_6_2_10' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536824503110'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_8_1_1_9_6_2_10_5_' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536824504616'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_7_3_8_1_1_9_6_2_10_' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536824504616'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_8_1_1_9_6_2_10_5_5' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536824505626'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_7_3_8_1_1_9_6_2_10_5_' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536824505626'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_8_1_1_9_6_2_10_5_5_8' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536824507135'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_7_3_8_1_1_9_6_2_10_5_5' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536824507135'/>
+	<problem type='Unresolved Token' token='is' resource='src/Bowling/Player.java' stamp='1536827910437'/>
+	<problem type='Unresolved Token' token='isFrameTen' resource='src/Bowling/Player.java' stamp='1536827915485'/>
+	<problem type='Unresolved Token' token='frame' resource='src/Bowling/Player.java' stamp='1536828754390'/>
+	<problem type='Unresolved Token' token='isFrameTenS' resource='src/Bowling/Player.java' stamp='1536828869247'/>
+	<problem type='Unresolved Token' token='game' resource='src/Bowling/Player.java' stamp='1536829015888'/>
+	<problem type='Unresolved Token' token='frameCounter' resource='src/Bowling/Player.java' stamp='1536829279799'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_8_1_1_9_6_2_10_5_5_8' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536830525909'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_6_1_1_9_6_2_10_5_5_8' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536830538068'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_7_3_8_1_1_9_6_2_10_5_5_8' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536830538068'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_6_2_1_9_6_2_10_5_5_8' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536830541112'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_7_3_6_1_1_9_6_2_10_5_5_8' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536830541112'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_6_2_10_9_6_2_10_5_5_8' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536830544155'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_7_3_6_2_1_9_6_2_10_5_5_8' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536830544155'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_6_2_10__6_2_10_5_5_8' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536830548195'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_7_3_6_2_10_9_6_2_10_5_5_8' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536830548195'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_6_2_10_8_6_2_10_5_5_8' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536830549204'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_7_3_6_2_10__6_2_10_5_5_8' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536830549204'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_6_2_1' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536830552747'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_7_3_6_2_10_8_6_2_10_5_5_8' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536830552747'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_6_2_' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536830553767'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_7_3_6_2_1' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536830553767'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_6_2' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536830556296'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_7_3_6_2_' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536830556296'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_6_2_19' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536830558328'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_7_3_6_2' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536830558328'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_6_2_10' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536830559340'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_7_3_6_2_19' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536830559340'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_6_2_10_' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536830560349'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_7_3_6_2_10' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536830560349'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_6_2_10_8' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536830561360'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_7_3_6_2_10_' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536830561360'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_6_2_10_8_2' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536830563388'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_7_3_6_2_10_8' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536830563388'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_6_2_10_8_2_' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536830564409'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_7_3_6_2_10_8_2' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536830564409'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_6_2_10_8_2_10' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536830565415'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_7_3_6_2_10_8_2_' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536830565415'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_6_2_10_8_2_10_10' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536830567945'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_7_3_6_2_10_8_2_10' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536830567945'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_6_2_10_8_2_10_10_' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536830570475'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_7_3_6_2_10_8_2_10_10' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536830570475'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_6_2_10_8_2_10_10_6' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536830571492'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_7_3_6_2_10_8_2_10_10_' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536830571492'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_6_2_10_8_2_10_10_6_1' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536830572519'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_7_3_6_2_10_8_2_10_10_6' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536830572519'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_6_2_10_8_2_10_10_6_1_3_2' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536830574538'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_7_3_6_2_10_8_2_10_10_6_1' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536830574538'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_7_3_6_2_10_8_2_10_10_6_1_3_2' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536830668616'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eight' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536830674685'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_7_3_6_2_10_8_2_10_10_6_1_3_2' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536830674685'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536830676199'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_eight' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536830676199'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame_Plus' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536830680765'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_eightFrame' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536830680765'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame_Plus_' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536830681775'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_eightFrame_Plus' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536830681775'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10_19' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536830808712'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_eightFrame_Plus_' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536830808712'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10_10_' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536830810234'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10_19' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536830810234'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10_10_6_2' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536830812266'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10_10_' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536830812266'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10_10_6_2' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536831029234'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame_Plus_8_10_6_2' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536831032753'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10_10_6_2' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536831032753'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame_Plus_8_2_6_2' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536831034281'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_eightFrame_Plus_8_10_6_2' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536831034281'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame_Plus_8_2_10_2' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536831035797'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_eightFrame_Plus_8_2_6_2' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536831035797'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame_Plus_8_2_10_3' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536831037327'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_eightFrame_Plus_8_2_10_2' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536831037327'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame_Plus_8_2_10_3_2' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536831038840'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_eightFrame_Plus_8_2_10_3' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536831038840'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame_Plus_8_2_10_3_2' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536831158204'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame_Plus_2_2_10_3_2' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536831161234'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_eightFrame_Plus_8_2_10_3_2' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536831161234'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame_Plus_2_5_10_3_2' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536831162235'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_eightFrame_Plus_2_2_10_3_2' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536831162235'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame_Plus_2_5_1_3_2' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536831164761'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_eightFrame_Plus_2_5_10_3_2' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536831164761'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame_Plus_2_5_10_3_2' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536831165767'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_eightFrame_Plus_2_5_1_3_2' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536831165767'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame_Plus_2_5_10_6_2' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536831167784'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_eightFrame_Plus_2_5_10_3_2' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536831167784'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame_Plus_2_5_10_6_2' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536831265672'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame_Plus_210_5_10_6_2' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536831270402'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_eightFrame_Plus_2_5_10_6_2' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536831270402'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10_5_10_6_2' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536831282536'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_eightFrame_Plus_210_5_10_6_2' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536831282536'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10__10_6_2' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536831286078'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10_5_10_6_2' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536831286078'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10_3_10_6_2' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536831292677'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10__10_6_2' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536831292677'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10_3__6_2' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536831295212'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10_3_10_6_2' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536831295212'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10_3_5_6_2' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536831296225'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10_3__6_2' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536831296225'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10_3_5' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536831298747'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10_3_5_6_2' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536831298747'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10_3_5' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536831341128'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10_3_5_' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536831352740'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10_3_5' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536831352740'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10_3_5_6' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536831353746'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10_3_5_' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536831353746'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10_3_5_6_' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536831354775'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10_3_5_6' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536831354775'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10_3_5_6_7' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536831355782'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10_3_5_6_' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536831355782'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10_3_5_6_7_should' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536831360841'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10_3_5_6_7' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536831360841'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10_3_5_6_7_should_st' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536831362862'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10_3_5_6_7_should' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536831362862'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10_3_5_6_7_should_stop' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536831363883'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10_3_5_6_7_should_st' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536831363883'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10_3_5_6_7_should_stop_as_1' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536831366391'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10_3_5_6_7_should_stop' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536831366391'/>
+	<change action='addition' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10_3_5_6_7_should_stop_as_145' args='' visibility='public' resource='test/BowlingTest.java' stamp='1536831367904'/>
+	<change action='removal' type='Method' class='BowlingTest' method='case_eightFrame_Plus_10_3_5_6_7_should_stop_as_1' args='' visibility='N/A' resource='test/BowlingTest.java' stamp='1536831367904'/>
+	<change action='addition' type='Method' class='Player' method='addBaseScores' args='int' visibility='public' resource='src/Bowling/Player.java' stamp='1536831572873'/>
+	<change action='addition' type='Method' class='Player' method='addBonusScores' args='int' visibility='public' resource='src/Bowling/Player.java' stamp='1536831661920'/>
+	<change action='addition' type='Method' class='Player' method='calculateFirstRollOfFirstNineFrames' args='int' visibility='public' resource='src/Bowling/Player.java' stamp='1536832010537'/>
+	<change action='removal' type='Method' class='Player' method='calculateFirstRollOfFirstNineFrames' args='int' visibility='public' resource='src/Bowling/Player.java' stamp='1536832069783'/>
+	<change action='addition' type='Method' class='Player' method='processFirstRollOfFirstNineFrames' args='int' visibility='public' resource='src/Bowling/Player.java' stamp='1536832069783'/>
+	<change action='addition' type='Method' class='Player' method='processSecondRollOfFirstNineFrames' args='int' visibility='public' resource='src/Bowling/Player.java' stamp='1536832102192'/>
+	<change action='addition' type='Method' class='Player' method='processLastFrame' args='int' visibility='public' resource='src/Bowling/Player.java' stamp='1536832142697'/>
+</session>
